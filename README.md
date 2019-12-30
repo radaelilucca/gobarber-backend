@@ -7,7 +7,7 @@ Criando um aplicativo de agendamentos de serviços de barbearia.
 ## Tecnologias utilizadas até o momento:
 
 ## Backend: Javascript com NodeJS.
- #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, Sequelize, PostgreSQL, Docker, EsLint e Prettier. 
+ #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Sequelize, PostgreSQL, Docker, EsLint e Prettier. 
 
 ##### Express: 
 Framework Node que facilita a criação de APIs com abstração de rotas, middlewares e outras muitas funções.
@@ -26,6 +26,9 @@ Permite a encriptação, decriptação, comparação de dados criptografados, en
 
 ##### Yup:
 Framework para validação de dados (campo obrigatório, mínimo de caractéres, igualdade entre campos, etc...)
+
+##### date-fns:
+Facilita lidar com vários aspectos em relação às datas, como formatação, transformação, timezones, locales, etc.
 
 ##### Sequelize:
 ORM (Object-Relational Mapper) para Node.js, que tem suporte a diversos bancos de dados relacionais, como ORM ele faz o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Permite criar, buscar, alterar e remover dados utilizando métodos JS, além de permitir a modificação da estrutura das tabelas
