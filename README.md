@@ -7,7 +7,7 @@ Criando um aplicativo de agendamentos de serviços de barbearia.
 ## Tecnologias utilizadas até o momento:
 
 ## Backend: Javascript com NodeJS.
- #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Sequelize, PostgreSQL, Docker, EsLint e Prettier. 
+ #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Sequelize, Mongoose, PostgreSQL, MongoDB, Docker, EsLint e Prettier. 
 
 ##### Express: 
 Framework Node que facilita a criação de APIs com abstração de rotas, middlewares e outras muitas funções.
@@ -33,8 +33,14 @@ Facilita lidar com vários aspectos em relação às datas, como formatação, t
 ##### Sequelize:
 ORM (Object-Relational Mapper) para Node.js, que tem suporte a diversos bancos de dados relacionais, como ORM ele faz o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Permite criar, buscar, alterar e remover dados utilizando métodos JS, além de permitir a modificação da estrutura das tabelas
 
+##### Mongoose:
+Proporciona uma solução baseada em esquemas para modelar dados. Possui sistema de conversão de tipos, validação, criação de consultas e hooks para lógica de negócios. Fornece um mapeamento de objetos do MongoDB similar ao ORM (ODM - Object Data Mapping, no caso do Mongoose), ou seja, traduz os dados da DB para objetos JS.
+
 ##### PostgreSQL:
 Banco de Dados SQL open source.
+
+##### MongoDB:
+Banco de dados open source, de alta performance, schema free e orientado à documentos.
 
 ##### Docker:
 Plataforma que facilita a criação e administração de ambientes isolados, neste caso rodando um container PostgresSQL.
