@@ -1,5 +1,7 @@
 # GoBarber
 
+(Listando os conhecimentos absorvidos com a aplicação desenvolvida no bootcamp)
+
 GoBarber app from Rocketseat bootcamp...
 
 Criando um aplicativo de agendamentos de serviços de barbearia.
