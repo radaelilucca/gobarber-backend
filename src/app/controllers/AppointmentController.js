@@ -34,6 +34,14 @@ class AppointmentController {
         .json({ error: 'You can only create appointments with providers' });
     }
 
+    // Check for crazy people
+
+    if (provider_id === req.userId) {
+      return res
+        .status(401)
+        .json({ error: 'You can not make an appointment with yourself' });
+    }
+
     // check for past dates
     const hourStart = startOfHour(parseISO(date));
 
@@ -68,7 +76,7 @@ class AppointmentController {
     // Notify appointment provider
 
     const user = await User.findByPk(req.userId);
-    const formatedDate = format(hourStart, "'dia' dd 'de' MMMM', às' H:m'h'", {
+    const formatedDate = format(hourStart, "'dia' dd 'de' MMMM', às' H:mm'h'", {
       locale: pt,
     });
 
