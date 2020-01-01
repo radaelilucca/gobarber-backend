@@ -9,7 +9,7 @@ Criando um aplicativo de agendamentos de serviços de barbearia.
 ## Tecnologias utilizadas até o momento:
 
 ## Backend: Javascript com NodeJS.
- #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Sequelize, Sentry.io, Youch, Mongoose, PostgreSQL, MongoDB, Docker, EsLint e Prettier. 
+ #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Sequelize, Sentry.io, Youch, dotenv, Mongoose, PostgreSQL, MongoDB, Docker, EsLint e Prettier. 
 
 ##### Express: 
 Framework Node que facilita a criação de APIs com abstração de rotas, middlewares e outras muitas funções.
@@ -40,6 +40,9 @@ Monitora e reporta erros de forma automática.
 
 ##### Youch
 Reporta os erros em formato de HTML ou JSON.
+
+##### dotenv
+Carrega as variáveis ambiente configuradas no arquivo .env.
 
 ##### Mongoose:
 Proporciona uma solução baseada em esquemas para modelar dados. Possui sistema de conversão de tipos, validação, criação de consultas e hooks para lógica de negócios. Fornece um mapeamento de objetos do MongoDB similar ao ORM (ODM - Object Data Mapping, no caso do Mongoose), ou seja, traduz os dados da DB para objetos JS.
