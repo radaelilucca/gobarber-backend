@@ -25,7 +25,7 @@ NodeJS 12.14.1 ou superior, package manager - (Yarn/NPM), Docker, Insomnia.
 
 - Se os containers e as variáveis ambiente estiverem okay, tudo deverá funcionar corretamente.
 ```
-<h1 align="center" color="#7159c1">Tecnologias Utilizadas</h1>
+<h1 align="center">Tecnologias Utilizadas 👨‍💻 </h1>
 
 ## Backend: Javascript - API em NodeJS.
 >Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Multer, Sequelize, Sentry.io, Youch, dotenv, Mongoose, PostgreSQL, MongoDB, Docker, EsLint e Prettier. 
