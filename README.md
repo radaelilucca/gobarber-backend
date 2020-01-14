@@ -15,15 +15,15 @@ NodeJS 12.14.1 ou superior, package manager - (Yarn/NPM), Docker, Insomnia.
 ```sh
 1 - Baixe o projeto com Gitclone ou donwload direto.
 
-2 - Entre na pasta do projeto e execute o comando Yarn, para baixar todos os pacotes e suas dependências.
+2 - Execute o comando Yarn na raiz do projeto, para baixar todos os pacotes e suas dependências.
 
 3 - Suba os containers no Docker com PostgreSQL, MongoDB e Redis.
 
-4 - Crie um arquivo .env na raiz do projeto e edite suas variáveis de ambiente, tendo como base o .envexample.
+4 - Crie o .env na raiz do projeto e edite suas variáveis de ambiente, tendo como base o .envexample.
 
-5 - Rode o comando yarn dev - para iniciar o servidor, e yarn queue - para iniciar o serviço de background jobs.
+5 - Rode yarn dev - para iniciar o servidor, e yarn queue - para iniciar o serviço de background jobs.
 
-- Se os containers e as variáveis ambiente estiverem okay, tudo estará funcionando normalmente.
+- Se os containers e as variáveis ambiente estiverem okay, tudo deverá funcionar corretamente.
 ```
 <h1 align="center" color="#7159c1">Tecnologias Utilizadas</h1>
 
