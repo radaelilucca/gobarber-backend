@@ -1,15 +1,11 @@
 # GoBarber
 
-(Listando os conhecimentos absorvidos com a aplicação desenvolvida no bootcamp)
+Criando um aplicativo de agendamentos de serviços de barbearia, que conecta usuários à barbeiros, de forma simples e rápida.
 
-GoBarber app from Rocketseat bootcamp...
-
-Criando um aplicativo de agendamentos de serviços de barbearia.
-
-## Tecnologias utilizadas até o momento:
+## Tecnologias utilizadas
 
 ## Backend: Javascript com NodeJS.
- #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Sequelize, Sentry.io, Youch, dotenv, Mongoose, PostgreSQL, MongoDB, Docker, EsLint e Prettier. 
+ #### Express, Nodemon, Sucrase, JsonWebToken, BcryptJS, Yup, date-fns, Multer, Sequelize, Sentry.io, Youch, dotenv, Mongoose, PostgreSQL, MongoDB, Docker, EsLint e Prettier. 
 
 ##### Express: 
 Framework Node que facilita a criação de APIs com abstração de rotas, middlewares e outras muitas funções.
@@ -31,6 +27,9 @@ Framework para validação de dados (campo obrigatório, mínimo de caractéres,
 
 ##### date-fns:
 Facilita lidar com vários aspectos em relação às datas, como formatação, transformação, timezones, locales, etc.
+
+##### Multer
+Um node.js middleware para lidar com multipart/form-data, utilizado para upload de arquivos, nesse caso o avatar dos providers.
 
 ##### Sequelize:
 ORM (Object-Relational Mapper) para Node.js, que tem suporte a diversos bancos de dados relacionais, como ORM ele faz o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Permite criar, buscar, alterar e remover dados utilizando métodos JS, além de permitir a modificação da estrutura das tabelas
