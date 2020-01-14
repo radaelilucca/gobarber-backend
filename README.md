@@ -2,16 +2,16 @@
   </p>
 
 # GoBarber
->Aplicativo de agendamentos de serviços de barbearia, que conecta usuários à barbeiros, de forma simples e rápida.
+>Aplicativo de agendamentos de serviços de barbearia. Conecta usuários à barbeiros de forma simples e rápida. 
 
-## Getting Starterd
+## 💈 Getting Starterd
 Essas são as instruções para você conseguir rodar o projeto em sua máquina local, para desenvolvimento ou testes!
 
-## Pré-requisitos
+## ✂️ Pré-requisitos
 ``` sh
 NodeJS 12.14.1 ou superior, package manager - (Yarn/NPM), Docker, Insomnia.
 ```
-## Instalação
+## 💇‍♂️ Instalação
 ```sh
 1 - Baixe o projeto com Gitclone ou donwload direto.
 
