@@ -1,5 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/radaelilucca/gobarber/master/src/assets/GoBarber.png" alt="goBarber" align="center"/>
-  </p>
+   </p>
+<p align="center"> <img src="https://david-dm.org/radaelilucca/gobarber.svg" alt="dep"/></p>
 
 # GoBarber
 >Aplicativo de agendamentos de serviços de barbearia. Conecta usuários à barbeiros de forma simples e rápida. 
