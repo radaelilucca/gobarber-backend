@@ -150,6 +150,12 @@ class AppointmentController {
       });
     }
 
+    if (appointment.canceled_at) {
+      return res.status(404).json({
+        error: 'This appointment is already canceled',
+      });
+    }
+
     appointment.canceled_at = new Date();
 
     await appointment.save();
