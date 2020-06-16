@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/radaelilucca/gobarber/master/src/assets/GoBarber.png" alt="goBarber" align="center"/>
+<p align="center"><img src="https://github.com/radaelilucca/gobarber-backend/blob/8db8538d5c31fe31d9dbda321950c5d4cd8dbe23/src/assets/GoBarber.png?raw=true" alt="goBarber" align="center"/>
    </p>
 <p align="center"> </br><img src="https://david-dm.org/radaelilucca/gobarber.svg" alt="dep"/></p>
 
